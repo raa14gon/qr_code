@@ -1,0 +1,60 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: 0;
+   font-family: "Dosis", sans-serif;
+}
+
+body {
+    background-color: #D6E1F0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.card {
+    height: 500px;
+    width: 300px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card-top {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.card-top img {
+    height: 110%;
+    width: 90%;
+    border-radius: 10px;
+}
+
+.card-bottom {
+    height: 50%;
+    width: 100%;
+    padding: 10px;
+}
+
+.card-bottom h1 {
+    font-size: 1.6em;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.card-bottom p {
+    font-size: 1.15em;
+    text-align: center;
+    margin-top: 15px;
+    padding: 10px;
+}
